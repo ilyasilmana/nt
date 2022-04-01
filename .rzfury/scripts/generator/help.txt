@@ -1,0 +1,6 @@
+Usage: npm run [g|generate] -- [page|p] [<file-name>|<path1/path...n/file-name>]
+  or : npm run [g|generate] -- [component|c] [<file-name>|<path1/path...n/file-name>] [--default]
+  or : npm run [g|generate] -- api [<file-name>|<path1/path...n/file-name>]
+
+Note:
+- `file-name` must be in kebab case.

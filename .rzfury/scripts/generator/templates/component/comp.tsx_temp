@@ -1,0 +1,8 @@
+import { conclass } from "@rzfury/conclass";
+import styles from "./CSSMODULE_NAME.module.css";
+
+export default function RENAME_THIS() {
+  return (
+    <div className={conclass(styles.style)}>New Component</div>
+  );
+}
