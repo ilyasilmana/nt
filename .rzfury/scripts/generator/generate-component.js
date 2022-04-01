@@ -15,6 +15,10 @@ module.exports = function generate(path, params = []) {
     return;
   }
 
+  if(!fs.existsSync('./src/components/')) {
+    fs.mkdirSync('./src/components/');
+  }
+
   let prevPath = './src/components/';
   for(const _path of path) {
     prevPath += _path + '/';
